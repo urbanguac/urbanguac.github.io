@@ -1,1 +1,1 @@
-# Front page for website
+Resume template, static website.
