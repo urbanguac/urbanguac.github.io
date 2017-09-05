@@ -39,3 +39,20 @@ a:visited {
 .salmon {
     color: salmon;
 }
+
+
+input {
+    background: none;
+    border:none;
+    color:white;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12pt;
+    outline: none !important;
+    outline-width: 0px !important;
+    width: 90%;
+}
+
+input:focus {
+    outline: none !important;
+    outline-width: 0px !important;
+}

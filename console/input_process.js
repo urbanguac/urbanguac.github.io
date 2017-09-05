@@ -22,7 +22,7 @@ function assign() {
                 //now, the input is stopped so we can input the result of the command
                 if (!(command in commands)) {
                     type("<div></div><br />");
-                    type("Sorry, I wasn't able to find the keywork, file or script \"" + command + "\". Try again!");
+                    type("Sorry, I wasn't able to find the keyword, file or script \"" + command + "\". Try again!");
                     type(commands.help);
                     type("<div></div><br /><br />");
                 }
