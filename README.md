@@ -1,22 +1,18 @@
-Resume template, static website.
+# Cyresume
+A really cool resume template.
 
+I've decided to open source this.
 
+Inside `console/` you will find several files. The entrypoint, `index.html`, is actually almost entirely blank. `console.js` manages the homepage.
+This is a typeout resume modeled after consoles and terminals such as the bash environment.
 
+Inside `console.js`, you can use the add function and add_normal function to append typeable lines.
 
-FTC: Head of Code 2 Years,   Co-Captain 2 Years  Three Years Total;
-        VEX: Head of Code 1 Year;
-        Moonbots: Team Occultation;
-        FTC Team Lancer Robotics #3415  Team Fawkes Robotics #10919;
-        FTC World Championships  THINK Award 14-15;
-        FTC World Championships  Semi-finalist Alliance 14-15;
-        FTC Super Regionals  THINK Award 13-14;
-        FTC Super Regionals  THINK Award 14-15;
-        FTC Super Regionals  Finalist Alliance 14-15;
-        FTC State Championships  THINK Award 13-14;
-        FTC State Championships  Inspire Award 14-15;
-        FTC State Championships  Winning Alliance 14-15;
-        FTC State Championships  Promote Runner Up 15-16;
-        FTC Qualifier  THINK Award 13-14;
-        FTC Qualifier  INSPIRE 14-15, 15-16;
-        FTC Qualifier  PTC Design Award 15-16;
-        VEX 15-16  Robot Skills High Score  Semi-Finalist Alliance;
+```javascript
+add("This is a typeable line that will be typed word by word."); //prints out like this: > This is a typeable line that will be typed word by word.<br />
+add_normal("This is a line that will be typed out all at once."); //prints out like this: This is a line that will be typed out all at once.<br />
+```
+
+Right now it is typed automatically, you can uncomment a section of code shown in `console.js` to have the user type it out.
+
+There is also a pacman based and tetris based template, but they are not in use.
