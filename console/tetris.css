@@ -1,0 +1,56 @@
+.red {
+    background-color: lightcoral;
+}
+
+.orange {
+    background-color: lightsalmon;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.green {
+    background-color: mediumaquamarine;
+}
+
+.blue {
+    background-color: lightseagreen;
+}
+
+.purple {
+    background-color: darkturquoise;
+}
+
+.fullscreen {
+    background-color: lightsalmon;
+    width: 100%;
+    height: 100%;
+    line-height: 12pt;
+}
+
+.two-block {
+    float: left;
+    width: 50%;
+    height: 20%;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10pt;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: white;
+}
+
+.block {
+    float: left;
+    width: 25%;
+    height: 20%;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10pt;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: white;
+}

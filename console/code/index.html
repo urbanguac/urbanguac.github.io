@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Super simple CSS-only terminal window with code</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="window" style="height: 60%; width: 80%;">
+  <div class="icons"><span></span></div>
+  <div class="title">resume.py - &nbsp;&nbsp; <a href="https://www.github.com/pshah123">Github</a>,&nbsp;&nbsp; <a href="https://angel.co/priansh-shah">Angel.co</a></div>
+  <pre class="lang-python" style="height: 100%"><code># You can scroll this window!!
+import sys, os
+from priansh import ResumeApp
+import requests
+# excuse the use of py2.7, it's more readable this way
+app=ResumeApp(__name__)
+app.run()
+
+@Resume
+print "Coding is by far my most indulgent passion \
+    and my greatest hobby."
+print "Looking to hire me professionally? \
+    Here's just a few things I'm interested in:"
+    # Machine Learning + Data Science
+    # Application Development
+    # Video Game Design
+    # Information Security
+    # Scrapers & Big Data
+print "What do I have to offer?"
+print "Check out my GitHub or my Angel using the links above!"
+print "I also do freelance projects for flat rates."
+print "Contact me at: <a href="mailto:shah@priansh.com">shah@priansh.com</a>"
+</code></pre>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.js '></script>
+
+  
+</body>
+</html>

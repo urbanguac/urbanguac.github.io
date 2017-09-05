@@ -1,0 +1,41 @@
+#main_body {
+    background-color: #032530;
+    width: 100%;
+    height: 90%;
+}
+
+#console_holder {
+    color: white;
+    padding-left:20px;
+    font-size:12pt;
+    width: 80%;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+a.hover {
+    color: lightskyblue;
+}
+
+a:visited {
+    color: lightseagreen;
+}
+
+.coral {
+    color: lightcoral;
+}
+
+.aqua {
+    color: aquamarine;
+}
+
+.turq {
+    color: mediumturquoise;
+}
+
+.salmon {
+    color: salmon;
+}
